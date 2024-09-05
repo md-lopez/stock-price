@@ -14,7 +14,7 @@ function SearchBar({ stockSymbol, setStockSymbol, fetchStockPrice }) {
         type="text"
         value={stockSymbol}
         onChange={(e) => setStockSymbol(e.target.value)}
-        placeholder="Enter stock symbol (e.g., AAPL)"
+        placeholder="Enter stock symbol"
         className="px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
       />
       <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
